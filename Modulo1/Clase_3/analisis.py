@@ -10,3 +10,5 @@ def mostrar_resumen(datos):
     print(f"Total de registros: {len(datos)}")
     print(f"Promedio: {calcular_promedio(datos)}")
     print(f"Máximo: {calcular_maximo(datos)}")
+
+mostrar_resumen(dataset)
